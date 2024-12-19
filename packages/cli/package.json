@@ -1,6 +1,6 @@
 {
   "name": "@qx-npm/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@qx-npm/core": "^0.0.1",
+    "@qx-npm/core": "^0.0.2",
     "chalk": "^5.4.0",
     "commander": "^12.1.0"
   },
