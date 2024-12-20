@@ -89,3 +89,33 @@ git add .
 
 git commit -m 'first commit'
 ```
+
+13、发布
+
+  13.1 提交变化信息
+
+  ```js
+    npx changeset add
+  ```
+
+  13.2 生成版本
+
+  ```js
+    npx changeset version
+  ```
+
+  13.3 发布到仓库
+  ```js
+    git add .
+    git commit -m 'second commit'
+
+    npx changeset publish
+  ```
+
+14、测试
+
+```js
+npx @qx-npm/cli minus 3 4
+npx @qx-npm/cli add 3 4
+
+```
